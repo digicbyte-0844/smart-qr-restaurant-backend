@@ -5,7 +5,7 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
-  "main": "dist/firebase.js",
+  "main": "dist/main.js",
   "engines": {
     "node": ">=18 <=20"
   },
@@ -35,7 +35,6 @@
     "dotenv": "^17.2.3",
     "express": "^4.21.0",
     "firebase-admin": "^10.3.0",
-    "firebase-functions": "^7.0.3",
     "joi": "^18.0.2",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
