@@ -1,0 +1,8 @@
+Fetching existing menu items...
+Found 45 items in DB.
+Adding missing item: 2 Roti (Indian Breads)
+Adding missing item: 2 Butter Naan (Indian Breads)
+Adding missing item: Water Bottle (Beverages)
+Adding missing item: Cool Drink (Beverages)
+
+Operation complete. Added 4 missing items.

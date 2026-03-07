@@ -1,0 +1,67 @@
+
+--- Mandi - Non Veg ---
+0QeAgHlEk2W2jEiFjElt: "Arabic Fish Mandi" - 529
+2GqTYmstNlygvyBbGtEf: "Tandoori Chicken Mandi" - 479
+2c9tauSM3lLqd9ar39HN: "Chicken Fry Mandi" - 329
+72qkrZiBgvPyApYvdeUD: "Dubai Sheikh Spl. Arabic Mix Mandi" - 799
+LNfPhWYQgz7cDeGuwBtk: "Chicken Juicy Mandi" - 309
+kjvXTUl4FtPl9iQGoozR: "BBQ Chicken Mandi" - 479
+uurtjsRsRbjQGjX3cNEW: "Chicken Al Faham Mandi" - 359
+vSZVkOOF8q2Itkd6wFV2: "Mutton Fry Mandi" - 549
+xoCunAN1XtBIgeXgtDSj: "Mutton Juicy Mandi" - 529
+
+--- Biryani - Non Veg ---
+0qYhftoW250ZwO3po2Z1: "Mutton Dum Biryani" - 429
+5PW7rtaLocCLTkRUGkiD: "Mughlai Chicken Biryani" - 329
+7a2miUXBKg5vegIVHTJQ: "SP Chicken Biryani" - 299
+AdundgnH3xqs1tiozGgi: "Egg Biryani" - 179
+CH3otWfeSuO4PC2WChSg: "Chicken Biryani" - 259
+D5ctyKwGE0Gpa56sN28j: "Wings Biryani" - 349
+DPwvH4gm23X2Yk10lSl2: "Lollipop Biryani" - 369
+NZzdpWq6y5M5d4tlQWwI: "Chicken Dum Biryani" - 299
+eCi5YFMJrSjOIzQZNa2w: "Chicken Tikka Biryani" - 329
+lLtMdhXoojkHvW2vG8SN: "Fish Biryani" - 299
+m8Bx866hCkwwr2QApC6O: "Mutton Biryani" - 369
+nvtiietc9JQO8Bou8z94: "Prawns Biryani" - 369
+
+--- Curries - Egg ---
+2ckhavsAQpCECLSwgTPs: "Egg Curry" - 189
+RELMhJQMUyuFcpOgxKOx: "Egg Masala" - 189
+
+--- Curries - Veg ---
+2mgosmHhP2HNvM8BcSXR: "Veg Anarkali" - 189
+44ZKanV3EMArEXgcaCkw: "Paneer Butter Masala" - 249
+8pKOGS4fKnaGxbqMtz2z: "Mushroom Masala" - 239
+Mm3YmtNHuItHmwZMgxSs: "Kadai Paneer" - 249
+X5sV64g2i1p9lmLrG20o: "Palak Paneer" - 249
+a1c7MuNPws3qJ67kEWUQ: "Veg Kohlapuri" - 189
+cLO5CHuJsLHEjhQZ3FUF: "Methi Chaman" - 239
+eUiskr6ibxvKDoV11hwZ: "Mix Veg Curry" - 179
+kMmn2xKDbxQ5ksUX0QWG: "Paneer Pasanda" - 249
+nlmeZtVWihE4Y8ZgOOnJ: "Veg Jaipuri" - 189
+v7rVl099GXRTyVpchVHf: "Kaju Tomato" - 239
+
+--- Mandi - Veg ---
+3xB6f8ATOqUYjctIfE2c: "Paneer Mandi" - 349
+MOiZVfABhhnIKui5ahem: "Mixed Veg Mandi" - 289
+xpf1LGQIZXnjMHnUAgxb: "Kaju Mandi" - 349
+
+--- Indian Breads ---
+By9kmK4Qx6qFISjb1ajS: "Roti - 2 Pcs" - 29
+ZkxC3LN3tbq6y8qY1wOF: "Butter Naan - 2 Pcs" - 29
+
+--- Biryani - Veg ---
+ID3DWoVafIiX1KIsg5HG: "Kaju Biryani" - 289
+il3CoD5gmh2LmH75hSNY: "Veg Biryani" - 169
+sA8lkYtuqBTTdjj5EHKp: "Mushroom Biryani" - 289
+vjUNqN03GWYlHfoOVQz1: "Paneer Biryani" - 289
+
+--- Curries - Fish/Prawns ---
+JiqG5h70urs4Uh4nibA8: "Prawns Curry" - 349
+K1ClnahFqms32PqRmvUU: "Fish Curry Boneless" - 329
+TiVOL5KxGoA1968DWwD0: "Prawns Fry" - 349
+ZxpttKWYdo9ieBqHdPPW: "Kadai Prawns" - 349
+
+--- Beverages ---
+QRia1zH4DsZARCAEIgMJ: "Cool Drink" - 20
+q90q2aWFMPijkWQI3nUp: "Water Bottle" - 20
