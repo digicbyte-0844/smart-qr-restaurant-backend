@@ -1,0 +1,115 @@
+﻿# npm audit report
+
+@google-cloud/firestore  <6.1.0
+Severity: moderate
+Logging of the firestore key within nodejs-firestore - https://github.com/advisories/GHSA-4g6q-77j7-vvjc
+fix available via `npm audit fix --force`
+Will install firebase-admin@13.7.0, which is a breaking change
+node_modules/@google-cloud/firestore
+  firebase-admin  4.0.0 - 11.4.0
+  Depends on vulnerable versions of @google-cloud/firestore
+  Depends on vulnerable versions of jsonwebtoken
+  node_modules/firebase-admin
+
+@grpc/grpc-js  <1.8.22
+Severity: moderate
+@grpc/grpc-js can allocate memory for incoming messages well above configured limits - https://github.com/advisories/GHSA-7v5v-9h63-cj86
+fix available via `npm audit fix`
+node_modules/@grpc/grpc-js
+  google-gax  0.19.0 - 3.5.4
+  Depends on vulnerable versions of @grpc/grpc-js
+  Depends on vulnerable versions of protobufjs
+  node_modules/google-gax
+
+ajv  <6.14.0
+Severity: moderate
+ajv has ReDoS when using `$data` option - https://github.com/advisories/GHSA-2g4f-4pwh-qvx6
+fix available via `npm audit fix`
+node_modules/@angular-devkit/core/node_modules/ajv
+node_modules/@nestjs/schematics/node_modules/ajv
+  @angular-devkit/core  0.0.24 - 12.0.0-rc.3
+  Depends on vulnerable versions of ajv
+  node_modules/@angular-devkit/core
+  node_modules/@nestjs/schematics/node_modules/@angular-devkit/core
+    @angular-devkit/schematics  0.0.43 - 12.0.0-rc.3
+    Depends on vulnerable versions of @angular-devkit/core
+    node_modules/@angular-devkit/schematics
+    node_modules/@nestjs/schematics/node_modules/@angular-devkit/schematics
+      @nestjs/cli  2.0.0-rc.1 - 11.0.0-next.7
+      Depends on vulnerable versions of @angular-devkit/core
+      Depends on vulnerable versions of @angular-devkit/schematics
+      Depends on vulnerable versions of @angular-devkit/schematics-cli
+      Depends on vulnerable versions of @nestjs/schematics
+      Depends on vulnerable versions of inquirer
+      Depends on vulnerable versions of shelljs
+      Depends on vulnerable versions of webpack
+      node_modules/@nestjs/cli
+    @angular-devkit/schematics-cli  <=18.1.0-rc.1
+    Depends on vulnerable versions of @angular-devkit/core
+    Depends on vulnerable versions of @angular-devkit/schematics
+    Depends on vulnerable versions of @schematics/schematics
+    Depends on vulnerable versions of inquirer
+    Depends on vulnerable versions of minimist
+    node_modules/@angular-devkit/schematics-cli
+    @nestjs/schematics  <=7.3.1
+    Depends on vulnerable versions of @angular-devkit/core
+    Depends on vulnerable versions of @angular-devkit/schematics
+    node_modules/@nestjs/schematics
+    @schematics/schematics  >=0.0.12
+    Depends on vulnerable versions of @angular-devkit/core
+    Depends on vulnerable versions of @angular-devkit/schematics
+    node_modules/@schematics/schematics
+
+jsonwebtoken  <=8.5.1
+Severity: high
+jsonwebtoken unrestricted key type could lead to legacy keys usage  - https://github.com/advisories/GHSA-8cf7-32gw-wr33
+jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC - https://github.com/advisories/GHSA-hjrf-2m68-5959
+jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify() - https://github.com/advisories/GHSA-qwph-4952-7xr6
+fix available via `npm audit fix --force`
+Will install firebase-admin@13.7.0, which is a breaking change
+node_modules/jsonwebtoken
+
+minimist  1.0.0 - 1.2.5
+Severity: critical
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-xvch-5gv4-984h
+fix available via `npm audit fix`
+node_modules/@angular-devkit/schematics-cli/node_modules/minimist
+
+protobufjs  6.10.0 - 6.11.3
+Severity: critical
+protobufjs Prototype Pollution vulnerability - https://github.com/advisories/GHSA-h755-8qp9-cq85
+fix available via `npm audit fix`
+node_modules/google-gax/node_modules/protobufjs
+
+shelljs  <=0.8.4
+Severity: high
+Improper Privilege Management in shelljs - https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+Improper Privilege Management in shelljs - https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+fix available via `npm audit fix`
+node_modules/shelljs
+
+tmp  <=0.2.3
+tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter - https://github.com/advisories/GHSA-52f5-9888-hmc6
+fix available via `npm audit fix`
+node_modules/tmp
+  external-editor  >=1.1.1
+  Depends on vulnerable versions of tmp
+  node_modules/external-editor
+    inquirer  3.0.0 - 8.2.6 || 9.0.0 - 9.3.7
+    Depends on vulnerable versions of external-editor
+    node_modules/inquirer
+
+webpack  5.0.0-alpha.0 - 5.93.0
+Severity: critical
+Cross-realm object access in Webpack 5 - https://github.com/advisories/GHSA-hc6q-2mpp-qw7j
+Webpack's AutoPublicPathRuntimeModule has a DOM Clobbering Gadget that leads to XSS - https://github.com/advisories/GHSA-4vvj-4cpr-p986
+fix available via `npm audit fix`
+node_modules/webpack
+
+19 vulnerabilities (3 low, 8 moderate, 2 high, 6 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force

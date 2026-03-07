@@ -19,16 +19,13 @@ async function bootstrap() {
     transform: true
   }));
 
-  // Allow all origins in development — socket.io polling transport
-  // makes HTTP requests that must pass CORS before upgrading to WebSocket
   app.enableCors({
-    origin: true,           // reflects the request origin (dev-safe)
-    methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
-    credentials: true,
+    origin: '*',
+    credentials: true
   });
 
   const port = process.env.PORT || 3000;
-  await app.listen(port, '0.0.0.0');
+  await app.listen(port);
   logger.log(`🚀 Backend running on http://localhost:${port}`);
   logger.log(`💬 Chat WebSocket active securely.`);
 }
