@@ -5,6 +5,7 @@ import { OrdersModule } from './orders/orders.module';
 import { MenuModule } from './menu/menu.module';
 import { TablesModule } from './tables/tables.module';
 import { FirebaseModule } from './firebase/firebase.module';
+import { ChatModule } from './chat/chat.module';
 import { ConfigModule } from '@nestjs/config';
 import * as Joi from 'joi';
 
@@ -20,7 +21,7 @@ import * as Joi from 'joi';
         PORT: Joi.number().default(3000),
       }),
     }),
-    FirebaseModule, OrdersModule, MenuModule, TablesModule],
+    FirebaseModule, OrdersModule, MenuModule, TablesModule, ChatModule],
   controllers: [AppController],
   providers: [AppService],
 })
